@@ -20,5 +20,13 @@ Les composants utilisés sont les suivants:
 
 
 ## Hardware
+Instalation de l'ecran et de la RPI 
+installation du capteur Zigbee
+
+
 
 ## Software
+installer Raspbian sur la RPI
+
+mettre à jour: sudo apt update/ sudo apt upgrade
+
