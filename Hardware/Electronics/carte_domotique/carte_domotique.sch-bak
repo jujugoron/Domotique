@@ -1,0 +1,217 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Raspberry_Pi_2_3 J2
+U 1 1 618062FD
+P 6100 2950
+F 0 "J2" H 6100 4431 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 6100 4340 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 6100 2950 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 6100 2950 50  0001 C CNN
+	1    6100 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Counter_Clockwise J1
+U 1 1 61807EE4
+P 3800 2150
+F 0 "J1" H 3850 2667 50  0000 C CNN
+F 1 "Conn_02x08_Counter_Clockwise" H 3850 2576 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 3800 2150 50  0001 C CNN
+F 3 "~" H 3800 2150 50  0001 C CNN
+	1    3800 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 2050 6900 2150
+Wire Wire Line
+	6900 3750 6900 4250
+Wire Wire Line
+	6900 4250 6400 4250
+Connection ~ 6900 3750
+Connection ~ 6900 2150
+Wire Wire Line
+	6900 2150 6900 2350
+Connection ~ 6900 2350
+Wire Wire Line
+	6900 2350 6900 2450
+Connection ~ 6900 2450
+Wire Wire Line
+	6900 2450 6900 2650
+Connection ~ 6900 2650
+Wire Wire Line
+	6900 2650 6900 2750
+Connection ~ 6900 2750
+Wire Wire Line
+	6900 2750 6900 2850
+Connection ~ 6900 2850
+Wire Wire Line
+	6900 2850 6900 3050
+Connection ~ 6900 3050
+Wire Wire Line
+	6900 3050 6900 3150
+Connection ~ 6900 3150
+Wire Wire Line
+	6900 3150 6900 3250
+Connection ~ 6900 3250
+Wire Wire Line
+	6900 3250 6900 3350
+Connection ~ 6900 3350
+Wire Wire Line
+	6900 3350 6900 3450
+Connection ~ 6900 3450
+Wire Wire Line
+	6900 3450 6900 3650
+Connection ~ 6900 3650
+Wire Wire Line
+	6900 3650 6900 3750
+Connection ~ 5800 4250
+Wire Wire Line
+	5800 4250 5700 4250
+Connection ~ 5900 4250
+Wire Wire Line
+	5900 4250 5800 4250
+Connection ~ 6000 4250
+Wire Wire Line
+	6000 4250 5900 4250
+Connection ~ 6100 4250
+Wire Wire Line
+	6100 4250 6000 4250
+Connection ~ 6200 4250
+Wire Wire Line
+	6200 4250 6100 4250
+Connection ~ 6300 4250
+Wire Wire Line
+	6300 4250 6200 4250
+Connection ~ 6400 4250
+Wire Wire Line
+	6400 4250 6300 4250
+Wire Wire Line
+	6300 1650 6200 1650
+Connection ~ 5900 1650
+Wire Wire Line
+	5900 1650 5300 1650
+Connection ~ 6000 1650
+Wire Wire Line
+	6000 1650 5900 1650
+Connection ~ 6200 1650
+Wire Wire Line
+	6200 1650 6000 1650
+Connection ~ 5300 2050
+Wire Wire Line
+	5300 2050 5300 2150
+Connection ~ 5300 2150
+Wire Wire Line
+	5300 2150 5300 2350
+Connection ~ 5300 2350
+Wire Wire Line
+	5300 2350 5300 2450
+Connection ~ 5300 2450
+Wire Wire Line
+	5300 2450 5300 2550
+Connection ~ 5300 2550
+Wire Wire Line
+	5300 2550 5300 2750
+Connection ~ 5300 2750
+Wire Wire Line
+	5300 2750 5300 2850
+Connection ~ 5300 2850
+Wire Wire Line
+	5300 2850 5300 2950
+Connection ~ 5300 2950
+Wire Wire Line
+	5300 2950 5300 3150
+Connection ~ 5300 3150
+Wire Wire Line
+	5300 3150 5300 3250
+Connection ~ 5300 3250
+Wire Wire Line
+	5300 3250 5300 3350
+Connection ~ 5300 3350
+Wire Wire Line
+	5300 3350 5300 3450
+Connection ~ 5300 3450
+Wire Wire Line
+	5300 3450 5300 3550
+Connection ~ 5300 3550
+Wire Wire Line
+	5300 3550 5300 3650
+Wire Wire Line
+	4100 1850 4100 1900
+Wire Wire Line
+	4100 2550 3600 2550
+Wire Wire Line
+	3600 2550 3600 2450
+Connection ~ 4100 2550
+Connection ~ 4100 1950
+Wire Wire Line
+	4100 1950 4100 2050
+Connection ~ 4100 2050
+Wire Wire Line
+	4100 2050 4100 2150
+Connection ~ 4100 2150
+Wire Wire Line
+	4100 2150 4100 2250
+Connection ~ 4100 2250
+Wire Wire Line
+	4100 2250 4100 2350
+Connection ~ 4100 2350
+Wire Wire Line
+	4100 2350 4100 2450
+Connection ~ 4100 2450
+Wire Wire Line
+	4100 2450 4100 2550
+Connection ~ 3600 2550
+Connection ~ 3600 1950
+Wire Wire Line
+	3600 1950 3600 1850
+Connection ~ 3600 2050
+Wire Wire Line
+	3600 2050 3600 1950
+Connection ~ 3600 2150
+Wire Wire Line
+	3600 2150 3600 2050
+Connection ~ 3600 2250
+Wire Wire Line
+	3600 2250 3600 2150
+Connection ~ 3600 2350
+Wire Wire Line
+	3600 2350 3600 2250
+Connection ~ 3600 2450
+Wire Wire Line
+	3600 2450 3600 2350
+Wire Wire Line
+	5300 1650 5300 1900
+Connection ~ 4100 1900
+Wire Wire Line
+	4100 1900 4100 1950
+Connection ~ 5300 1900
+Wire Wire Line
+	5300 1900 5300 2050
+Wire Wire Line
+	4100 1900 5300 1900
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 6180FEB6
+P 3900 3050
+F 0 "J3" H 3980 3042 50  0000 L CNN
+F 1 "Conn_01x02" H 3980 2951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3900 3050 50  0001 C CNN
+F 3 "~" H 3900 3050 50  0001 C CNN
+	1    3900 3050
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
