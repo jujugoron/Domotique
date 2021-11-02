@@ -28,5 +28,10 @@ installation du capteur Zigbee
 ## Software
 installer Raspbian sur la RPI
 
-mettre à jour: sudo apt update/ sudo apt upgrade
+mettre à jour: 
+'''
 
+sudo apt update
+sudo apt upgrade
+
+'''
