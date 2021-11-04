@@ -1,4 +1,4 @@
-18628480228723847
+18689776418466212
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2267,6 +2267,13 @@ SMD 8540
 0
 4
 4
+CPLD_FPGA_MC
+CPLD_2.54
+
+
+0
+44
+44
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -6135,6 +6142,160 @@ Capacitor_Tantalum_SMD
 CP_EIA-7361-438_AVX-U_Pad2.18x3.30mm_HandSolder
 Tantalum Capacitor SMD AVX-U (7361-438 Metric), IPC_7351 nominal, (Body size from: http://datasheets.avx.com/NOS.pdf), generated with kicad-footprint-generator
 capacitor tantalum
+0
+2
+2
+Connecteurs
+Alim_Cablée_2_fils
+
+
+0
+2
+2
+Connecteurs
+Bornier_02_P3.81mm_Horizontal
+
+
+0
+2
+2
+Connecteurs
+Bornier_03_P3.81mm_Horizontal
+
+
+0
+3
+3
+Connecteurs
+Bornier_04_P3.81mm_Horizontal
+
+
+0
+4
+4
+Connecteurs
+DUPONT_FEMELLE_2.54_2x10
+
+
+0
+20
+20
+Connecteurs
+DUPONT_FEMELLE_2.54_2x30
+
+
+0
+60
+60
+Connecteurs
+DUPONT_MALE_2.54_2x10
+
+
+0
+20
+20
+Connecteurs
+DUPONT_MALE_2.54_2x30
+
+
+0
+60
+60
+Connecteurs
+FASTON VERTICAL
+
+
+0
+3
+1
+Connecteurs
+Fils_Pads_1x3
+
+
+0
+3
+3
+Connecteurs
+JTAG10
+
+
+0
+10
+10
+Connecteurs
+Module-LM2596S
+
+
+0
+4
+4
+Connecteurs
+PinHeader_1x22_P2.54mm_rivets
+Through hole straight pin header, 1x22, 2.54mm pitch, single row
+Through hole pin header THT 1x22 2.54mm single row
+0
+22
+22
+Connecteurs
+SW_2P2T_2.54_01x03
+
+
+0
+3
+3
+Connecteurs
+Switch_3_Pin
+
+
+0
+3
+3
+Connecteurs
+USB_A
+
+
+0
+6
+6
+Connecteurs
+XBEE-20_THT
+https://www.digi.com/pdf/ds_xbeemultipointmodules.pdf
+
+0
+20
+20
+Connecteurs
+XBEE_PRO-20_THT
+
+
+0
+20
+20
+Connecteurs
+XBEE_and_XBEE-PRO_37_SMD
+
+
+0
+74
+37
+Connecteurs
+XT60
+
+
+0
+2
+2
+Connecteurs
+banane
+
+
+0
+2
+1
+Connecteurs
+cable smd 2
+
+
 0
 2
 2
@@ -58029,6 +58190,20 @@ Mounting 4.5mm 9774100982
 0
 8
 1
+NUCLEO-F303K8
+MODULE_NUCLEO-F303K8
+
+
+0
+30
+30
+NUCLEO-F303K8
+NUCEO_32_F303K8T6
+
+
+0
+30
+30
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -81269,6 +81444,41 @@ transformer flyback
 0
 10
 10
+Trinamic_Drivers
+IC_DRV8825_STEPPER_MOTOR_DRIVER_CARRIER
+
+
+0
+16
+16
+Trinamic_Drivers
+TMC2160-BOB
+
+
+0
+22
+22
+Trinamic_Drivers
+TMC2660-BOB
+
+
+0
+20
+20
+Trinamic_Drivers
+TMC_2208_BOB
+
+
+0
+16
+16
+Trinamic_Drivers
+TQFP-44_TCM2660-PA
+Trace TMC2660
+QFP 0.8 2660 TMC
+0
+36
+36
 UX60SA-MB-5ST
 UX60SA-MB-5ST
 
@@ -82046,3 +82256,59 @@ varistor SIOV
 0
 2
 2
+blue_pill
+YAAJ_BlackPill_1
+BlackPill module with pin headers and sockets. No SWD breakout
+module BlackPill Black Pill header socket
+0
+34
+34
+blue_pill
+YAAJ_BlackPill_2
+BlackPill module with pin headers / sockets. No SWD breakout
+module BlackPill Black Pill header
+0
+34
+34
+blue_pill
+YAAJ_BlackPill_SWD_1
+BlackPill module with pin headers / sockets. SWD broken out to PCB.
+module BlackPill Black Pill header SWD breakout
+0
+38
+38
+blue_pill
+YAAJ_BlackPill_SWD_2
+BlackPill module with pin headers / sockets. SWD broken out to PCB.
+module BlackPill Black Pill header SWD breakout
+0
+38
+38
+blue_pill
+YAAJ_BluePill_1
+Through hole headers for BluePill module. No SWD breakout. Fancy silkscreen.
+module BlluePill Blue Pill header SWD breakout
+0
+40
+40
+blue_pill
+YAAJ_BluePill_2
+Through hole headers for BluePill module. No SWD breakout. Fancy silkscreen.
+module BlluePill Blue Pill header SWD breakout
+0
+40
+40
+blue_pill
+YAAJ_BluePill_SWD_1
+Through hole headers for BluePill module. No SWD breakout. Fancy silkscreen.
+module BlluePill Blue Pill header SWD breakout
+0
+44
+44
+blue_pill
+YAAJ_BluePill_SWD_2
+Through hole headers for BluePill module. No SWD breakout. Fancy silkscreen.
+module BlluePill Blue Pill header SWD breakout
+0
+44
+44
