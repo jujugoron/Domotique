@@ -41,7 +41,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 2550 8050 2550
 Wire Wire Line
-	8050 2550 8050 1750
+	8050 2550 8050 1850
 Wire Wire Line
 	8050 1750 7900 1750
 Wire Wire Line
@@ -52,20 +52,6 @@ Wire Wire Line
 	7400 1900 7200 1900
 Wire Wire Line
 	7200 1900 7200 1650
-Wire Wire Line
-	7400 2450 7150 2450
-Wire Wire Line
-	7150 2450 7150 2350
-Wire Wire Line
-	7150 2350 6900 2350
-Wire Wire Line
-	7400 2550 7100 2550
-Wire Wire Line
-	7100 2550 7100 2450
-Wire Wire Line
-	7100 2450 6900 2450
-Wire Wire Line
-	7400 2650 6900 2650
 Wire Wire Line
 	7900 2650 8750 2650
 Wire Wire Line
@@ -102,8 +88,6 @@ Wire Wire Line
 	8900 1200 5000 1200
 Wire Wire Line
 	5000 1200 5000 2550
-Wire Wire Line
-	7900 1850 7900 2350
 $Comp
 L Connector_Generic:Conn_02x06_Odd_Even J1
 U 1 1 61835B69
@@ -123,11 +107,8 @@ Wire Wire Line
 Connection ~ 5900 4250
 Wire Wire Line
 	6000 4250 5900 4250
-Connection ~ 5900 1650
 Wire Wire Line
 	5950 1650 5900 1650
-Wire Wire Line
-	5900 1650 5300 1650
 Connection ~ 6000 4250
 Connection ~ 6100 4250
 Wire Wire Line
@@ -147,7 +128,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 4250 5700 4250
 Wire Wire Line
-	6400 4250 7050 4250
+	6400 4250 6450 4250
 Wire Wire Line
 	5750 2850 7400 2850
 Wire Wire Line
@@ -163,4 +144,44 @@ F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/r
 	1    6100 2950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7900 1850 7900 2350
+Connection ~ 7900 2350
+Wire Wire Line
+	7900 2350 7900 2450
+Text Label 7150 2850 0    50   ~ 0
+reset
+NoConn ~ 7400 2450
+NoConn ~ 7400 2550
+$Comp
+L power:GND #PWR?
+U 1 1 6184D882
+P 8050 1850
+F 0 "#PWR?" H 8050 1600 50  0001 C CNN
+F 1 "GND" V 8055 1722 50  0000 R CNN
+F 2 "" H 8050 1850 50  0001 C CNN
+F 3 "" H 8050 1850 50  0001 C CNN
+	1    8050 1850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8050 1850
+Wire Wire Line
+	8050 1850 8050 1750
+$Comp
+L power:GND #PWR?
+U 1 1 6184DD94
+P 6450 4250
+F 0 "#PWR?" H 6450 4000 50  0001 C CNN
+F 1 "GND" H 6455 4077 50  0000 C CNN
+F 2 "" H 6450 4250 50  0001 C CNN
+F 3 "" H 6450 4250 50  0001 C CNN
+	1    6450 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 6450 4250
+Wire Wire Line
+	6450 4250 7050 4250
+Text Label 7950 2850 0    50   ~ 0
+SW1
+NoConn ~ 7400 2650
 $EndSCHEMATC
