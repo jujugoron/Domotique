@@ -20,7 +20,7 @@ Les composants utilisés sont les suivants:
 
 
 ## Hardware
-Instalation de l'ecran et de la RPI 
+Installation de l'ecran et de la RPI 
 installation du capteur Zigbee
 
 
