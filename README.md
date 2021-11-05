@@ -28,8 +28,54 @@ installation du capteur Zigbee
 ## Software
 installer Raspbian sur la RPI
 
-mettre à jour:
+### Mettre à jour
+
 ```
 sudo apt update
 sudo apt upgrade
 ```
+
+### Installation de deCONZ et de la puce RaspBee
+
+#### Désactivation de la console Serie 
+
+```
+sudo raspi-config
+```
+Advanced Options -> Serial -> Disable Commandline over Serial
+
+#### Desactivation du service getty
+```
+sudo systemctl disable serial-getty@ttyAMA0.service
+```
+#### Désactivation du bluetooth 
+
+1. ajouter la ligne suivant dans le fichier /boot/config.txt:
+```
+dtoverlay=pi3-disable-bt
+```
+2. Désactivation du modem Bluetooth
+```
+sudo systemctl disable hciuart
+```
+#### Installation de l'application DeCONZ
+```
+sudo gpasswd -a $USER dialout
+wget -O - http://phoscon.de/apt/deconz.pub.key | sudo apt-key add -
+sudo sh -c "echo 'deb http://phoscon.de/apt/deconz $(lsb_release -cs) main' > /etc/apt/sources.list.d/deconz.list"
+sudo apt update
+sudo apt install deconz
+```
+#### Lancement de l'application
+```
+sudo systemctl disable deconz
+sudo systemctl stop deconz
+sudo systemctl enable deconz-gui
+```
+
+#### redémarrage
+```
+sudo reboot
+```
+
+[Autre Tuto]( https://presentationdeconz.wordpress.com/installation/)
