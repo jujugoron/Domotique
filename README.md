@@ -50,7 +50,7 @@ sudo systemctl disable serial-getty@ttyAMA0.service
 ```
 #### Désactivation du bluetooth 
 
-1. ajouter la ligne suivant dans le fichier /boot/config.txt:
+1. Ajouter la ligne suivant dans le fichier /boot/config.txt:
 ```
 dtoverlay=pi3-disable-bt
 ```
