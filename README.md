@@ -44,7 +44,7 @@ sudo raspi-config
 ```
 Advanced Options -> Serial -> Disable Commandline over Serial
 
-#### Desactivation du service getty
+#### Désactivation du service getty
 ```
 sudo systemctl disable serial-getty@ttyAMA0.service
 ```
@@ -73,9 +73,9 @@ sudo systemctl stop deconz
 sudo systemctl enable deconz-gui
 ```
 
-#### redémarrage
+#### Redémarrage
 ```
 sudo reboot
 ```
 
-[Autre Tuto]( https://presentationdeconz.wordpress.com/installation/)
+[Tuto]( https://presentationdeconz.wordpress.com/installation/)
