@@ -1,5 +1,5 @@
 # Domotique
-Projet de box domotique
+Projet de box domotique (projet en cours de réalisation)
 
 
 # Objectifs:
@@ -26,7 +26,7 @@ installation du capteur Zigbee
 
 
 ## Software
-installer Raspbian sur la RPI
+###installer Raspbian sur la RPI
 
 ### Mettre à jour
 
