@@ -22,8 +22,13 @@ Les composants utilisés sont les suivants:
 ## Hardware
 Installation de l'ecran et de la RPI 
 installation du capteur Zigbee
+### Electronique
+relier l'ecran et l'antenne Raspbee sur la Raspberry PI. (utiliser la carte kicad si besoin)
 
+### Support
+un modèle fusion 360 est disponible dans le dossier Hardware. Il est inspiré du modèle [thingiverse]( https://www.thingiverse.com/thing:2756684 )
 
+le modèle à été imprimé en PLA et TPU avec une Creality CR10
 
 ## Software
 ###installer Raspbian sur la RPI
