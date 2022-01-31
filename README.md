@@ -65,7 +65,15 @@ wget -O - http://phoscon.de/apt/deconz.pub.key | sudo apt-key add -
 sudo sh -c "echo 'deb http://phoscon.de/apt/deconz $(lsb_release -cs) main' > /etc/apt/sources.list.d/deconz.list"
 sudo apt update
 sudo apt install deconz
+sudo systemctl edit deconz-gui
 ```
+
+ajouter l'option
+
+```
+–ws-port=8081
+```
+
 #### Lancement de l'application
 ```
 sudo systemctl disable deconz
@@ -79,3 +87,41 @@ sudo reboot
 ```
 
 [Tuto]( https://presentationdeconz.wordpress.com/installation/)
+
+
+
+### Installation d'Apache2
+```
+sudo apt install apache2 -y
+```
+
+Tester l'installation
+```
+cd /var/www/html
+hostname -I
+
+```
+tester la connexion avec l'appareil avec son adresse IP tel que http://192.168.1.86
+
+###Installation de PHP
+
+
+```
+ sudo apt install php -y
+```
+
+Tester l'installation
+```
+cd /var/www/html
+sudo rm index.html
+sudo nano index.php
+
+<?php echo "hello world"; ?>
+
+sudo service apache2 restart
+
+hostname -I
+
+```
+tester la connexion avec l'appareil avec son adresse IP tel que http://192.168.1.86
+
