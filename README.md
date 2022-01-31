@@ -125,3 +125,8 @@ hostname -I
 ```
 tester la connexion avec l'appareil avec son adresse IP tel que http://192.168.1.86
 
+### placer les fichiers de l'application Web "Software" dans le dossier /var/www/html 
+```
+sudo cp -r /home/pi/Desktop/Software /var/www/html
+```
+
