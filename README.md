@@ -57,6 +57,9 @@ sudo systemctl disable serial-getty@ttyAMA0.service
 
 1. Ajouter la ligne suivant dans le fichier /boot/config.txt:
 ```
+sudo nano /boot/config.txt
+```
+```
 dtoverlay=pi3-disable-bt
 ```
 2. Désactivation du modem Bluetooth
@@ -100,35 +103,15 @@ sudo reboot
 sudo apt install apache2 -y
 ```
 
-Tester l'installation
-```
-cd /var/www/html
-hostname -I
-
-```
-tester la connexion avec l'appareil avec son adresse IP tel que http://192.168.1.86
-
 ###Installation de PHP
-
 
 ```
  sudo apt install php -y
 ```
 
-Tester l'installation
-```
-cd /var/www/html
-sudo rm index.html
-sudo nano index.php
-
-<?php echo "hello world"; ?>
-
 sudo service apache2 restart
 
-hostname -I
-
 ```
-tester la connexion avec l'appareil avec son adresse IP tel que http://192.168.1.86
 
 ### placer les fichiers de l'application Web "Software" dans le dossier /var/www/html 
 ```
