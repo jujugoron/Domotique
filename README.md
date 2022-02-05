@@ -106,14 +106,14 @@ sudo apt install apache2 -y
 ###Installation de PHP
 
 ```
- sudo apt install php -y
-```
+sudo apt install php -y
 
 sudo service apache2 restart
 
 ```
 
 ### placer les fichiers de l'application Web "Software" dans le dossier /var/www/html 
+
 ```
 sudo cp -r /home/pi/Desktop/Software /var/www/html
 ```
