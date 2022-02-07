@@ -28,7 +28,7 @@ relier l'ecran et l'antenne Raspbee sur la Raspberry PI. (utiliser la carte kica
 ### Support
 un modèle fusion 360 est disponible dans le dossier Hardware. Il est inspiré du modèle [thingiverse]( https://www.thingiverse.com/thing:2756684 )
 
-le modèle à été imprimé en PLA et TPU avec une Creality CR10
+le modèle a été imprimé en PLA et TPU avec une Creality CR10
 
 ## Software
 ###installer Raspbian sur la RPI
