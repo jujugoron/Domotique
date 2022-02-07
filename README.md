@@ -102,6 +102,10 @@ sudo reboot
 ```
 sudo apt install apache2 -y
 ```
+```
+sudo chown -R pi:www-data /var/www/html/
+sudo chmod -R 770 /var/www/html/
+```
 
 ###Installation de PHP
 
