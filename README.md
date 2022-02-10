@@ -22,8 +22,13 @@ Les composants utilisés sont les suivants:
 ## Hardware
 Installation de l'ecran et de la RPI 
 installation du capteur Zigbee
+### Electronique
+relier l'ecran et l'antenne Raspbee sur la Raspberry PI. (utiliser la carte kicad si besoin)
 
+### Support
+un modèle fusion 360 est disponible dans le dossier Hardware. Il est inspiré du modèle [thingiverse]( https://www.thingiverse.com/thing:2756684 )
 
+le modèle a été imprimé en PLA et TPU avec une Creality CR10
 
 ## Software
 ###installer Raspbian sur la RPI
@@ -52,6 +57,9 @@ sudo systemctl disable serial-getty@ttyAMA0.service
 
 1. Ajouter la ligne suivant dans le fichier /boot/config.txt:
 ```
+sudo nano /boot/config.txt
+```
+```
 dtoverlay=pi3-disable-bt
 ```
 2. Désactivation du modem Bluetooth
@@ -65,7 +73,15 @@ wget -O - http://phoscon.de/apt/deconz.pub.key | sudo apt-key add -
 sudo sh -c "echo 'deb http://phoscon.de/apt/deconz $(lsb_release -cs) main' > /etc/apt/sources.list.d/deconz.list"
 sudo apt update
 sudo apt install deconz
+sudo systemctl edit deconz-gui
 ```
+
+ajouter l'option
+
+```
+–ws-port=8081
+```
+
 #### Lancement de l'application
 ```
 sudo systemctl disable deconz
@@ -79,3 +95,30 @@ sudo reboot
 ```
 
 [Tuto]( https://presentationdeconz.wordpress.com/installation/)
+
+
+
+### Installation d'Apache2
+```
+sudo apt install apache2 -y
+```
+```
+sudo chown -R pi:www-data /var/www/html/
+sudo chmod -R 770 /var/www/html/
+```
+
+###Installation de PHP
+
+```
+sudo apt install php -y
+
+sudo service apache2 restart
+
+```
+
+### placer les fichiers de l'application Web "Software" dans le dossier /var/www/html 
+
+```
+sudo cp -r /home/pi/Desktop/Software /var/www/html
+```
+
