@@ -7,12 +7,12 @@
     -o-background-size: cover;
     background-size: cover;
     cursor: default;
-    text-align: left;
+    text-align: center;
     padding: 8px 10px;
     margin: 2px;
     font-size: 20px;
    text-shadow: 0 -1px 1px black;
-    color: #FFF;
+    color: #FFFFFF;
     font-weight: bold;
     border-top: 1px solid black;
     
@@ -23,4 +23,21 @@
     display:inline;
 
 
+}
+
+.para {
+    text-align: left;
+    padding: 8px 10px;
+    margin: 2px;
+    font-size: 20px;
+    
+    color: #FFFFFF;
+    font-weight: bold;
+    border-top: 1px solid white;
+    
+    background: white;
+  
+    margin-bottom: 10px;
+    
+    display:inline;
 }

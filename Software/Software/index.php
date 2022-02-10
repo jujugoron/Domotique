@@ -522,7 +522,9 @@ async function setup(){
 
     
 
-        <div class="col-XL-2 col-3">
+        <!-- <div class="col-XL-2 col-3"> -->
+
+        <div class="col-xs-2 col-lg-3">
 
           <!-- date et heure -->
 
@@ -562,13 +564,14 @@ async function setup(){
 
 
 
-        <div class="col-XL-9 col-9">
+        <!-- <div class="col-XL-9 col-9"> -->
+
+        <div class="col-xs-10 col-lg-5">
 
           <div>
 
             <!-- affichage des temperatures-->
 
-           
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-thermometer-half" viewBox="0 0 16 16">
 
               <path d="M9.5 12.5a1.5 1.5 0 1 1-2-1.415V6.5a.5.5 0 0 1 1 0v4.585a1.5 1.5 0 0 1 1 1.415z"/>
@@ -600,6 +603,10 @@ async function setup(){
             
 
           </div>  
+
+        </div>  
+
+        <div class="col-md-offset-2 col-md-10 col-lg-offset-0 col-lg-4">
 
           <div>          
 
