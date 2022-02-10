@@ -1,43 +1,58 @@
-.date , .para, .bouton {
+.date, .para, .bouton {
+
 	font-family: 'OpenSans', sans-serif;
+
     
+
     -webkit-background-size: cover;
+
     -moz-background-size: cover;
+
     -ms-background-size: cover;
+
     -o-background-size: cover;
+
     background-size: cover;
-    cursor: default;
+
+    cursor: none;
+
     text-align: center;
+
     padding: 8px 10px;
+
     margin: 2px;
-    font-size: 20px;
+
+    font-size: 25px;
+
    text-shadow: 0 -1px 1px black;
+
     color: #FFFFFF;
+
     font-weight: bold;
+
     border-top: 1px solid black;
+
     
-    background: black;
+
+    background: Black;
+
   
+
     margin-bottom: 10px;
+
     
+
     display:inline;
+
+
+
 
 
 }
 
-.para {
-    text-align: left;
-    padding: 8px 10px;
-    margin: 2px;
-    font-size: 20px;
-    
-    color: #FFFFFF;
-    font-weight: bold;
-    border-top: 1px solid white;
-    
-    background: white;
-  
-    margin-bottom: 10px;
-    
-    display:inline;
-}
+
+
+
+
+
+
