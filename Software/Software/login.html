@@ -1,0 +1,74 @@
+<html>
+
+<head>
+
+  <title>Connexion</title>
+
+  <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+<meta charset="utf-8" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="CSS/master.css">
+</head>
+
+<body style="background-color:black;">
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; <!--&nbsp; sert à écrire un espacement  -->
+<div class="buttonNav">
+	<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-arrow-left-short" viewBox="0 -3 16 16">
+		<path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"/>
+	  </svg>
+	<a class="para" href="index.php">Retour</a>
+</div>
+  <div class="wrap">
+		<form action="connexion/verificationPers.php" method="POST">
+		<input autocomplete="off" type="text" placeholder="Code" name="code" id="number" required>
+		
+		<button>Valider</button>
+		 </form>
+		 <div id="clavier">
+		 <div id="corps">
+                    <div class="buttons">7</div>
+                    <div class="buttons">8</div>
+                    <div class="buttons">9</div>
+                    <div class="buttons">4</div>
+                    <div class="buttons">5</div>
+                    <div class="buttons">6</div>
+                    <div class="buttons">1</div>
+                    <div class="buttons">2</div>
+                    <div class="buttons">3</div>
+					<div class="buttonInvisible"></div>
+                    <div class="buttons">0</div>
+					<div onclick="suppr()" class="buttonsSuppr">Del</div>
+					<!-- Script pour gérer la suppression du dernier caractère en cliquant sur bouton "supprimer" -->
+					<script> 
+						function suppr() { 
+							var str = document.getElementById("number").value;
+							var newStr = str.substring(0, str.length - 1);
+							document.getElementById("number").value = newStr; 
+						} 
+					</script>
+                </div>
+				</div>
+	</div>
+	
+
+		  
+  <script src="js/index.js"></script>
+  	<!-- Scripts -->		
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>	
+			<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+			<script type="text/javascript" src="js/main.js"></script>
+			<script type="text/javascript">
+				$(document).ready(function() {
+					var calc = new Calculator();
+					calc.run();
+				});
+			</script>
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+.date , .para, .bouton {
+	font-family: 'OpenSans', sans-serif;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    cursor: default;
+    text-align: left;
+    padding: 8px 10px;
+    margin: 2px;
+    font-size: 20px;
+   text-shadow: 0 -1px 1px black;
+    color: #FFF;
+    font-weight: bold;
+    border-top: 1px solid black;
+    
+    background: black;
+  
+    margin-bottom: 10px;
+    
+    display:inline;
+
+
+}
